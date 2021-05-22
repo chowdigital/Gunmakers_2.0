@@ -125,11 +125,13 @@
       <div class="col-sm-6 col-lg-2 offset-lg-1">
 
         <!-- Links -->
-        <h2 class="h3-responsive font-weight-bold my-4">OPENING TIMES</h2>
+        <h2 class="h3-responsive font-weight-bold my-4">Opening Times</h2>
     <!--Section description-->
 
-              <p class="no-line-break"><strong>Monday - Sunday </strong></p>
-              <p >10am 'til late</p>
+              <p class="no-line-break"><strong>Monday - Saturday </strong></p>
+              <p >11am - 11pm</p>
+              <p><strong>Sunday</strong></p>
+              <p >11am - 10:30pm</p>
               
             
       </div>
@@ -139,7 +141,7 @@
       <div class="col-sm-6 col-lg-3">
 
         <!-- Links -->
-        <h2 class="h3-responsive font-weight-bold my-4">OLD BROMPTON</h2>
+        <h2 class="h3-responsive font-weight-bold my-4">Gunmakers</h2>
     <!--Section description-->
    
   
@@ -150,15 +152,15 @@
    
         <ul class="list-unstyled">
           <li>
-          <p><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;158 Old Brompton Rd,<br> Kensington <br>London SW5 0BA</p>
+          <p><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;33 Aybrook Street<br> Marylebone <br>London W1U 4AP</p>
           </li>
           <li>
           </li>
           <li>
-          <a href="tel:+442080661582"><p><i class="fas fa-phone mt-4"></i>&nbsp;&nbsp;020 8066 1582</a></p>
+          <a href="tel:+442079355291"><p><i class="fas fa-phone mt-4"></i>&nbsp;&nbsp;020 7935 5291</a></p>
           </li>
           <li>
-          <a href="mailto:info@oldbrompton.co.uk"><p><i class="fas fa-envelope mt-4"></i>&nbsp;&nbsp;info@oldbrompton.co.uk</a></p>
+          <a href="mailto:manager@gunmakershouse.co.uk"><p><i class="fas fa-envelope mt-4"></i>&nbsp;&nbsp;manager@gunmakershouse.co.uk</a></p>
           </li>
           <li>
           <a href="careers"><i class="fa fa-rocket mt-4" aria-hidden="true"></i>&nbsp;&nbsp;Careers</a> 
@@ -167,9 +169,9 @@
           <a href="privacy-policy"><i class="fa fa-lock mt-4" aria-hidden="true"></i>&nbsp;&nbsp;Privacy Policy</a>
           </li>
           <li>  
-      <!--    <a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x mt-4"></i> &nbsp;&nbsp;</a>
-          <a href="https://twitter.com/"><i class="fab fa-twitter fa-2x mt-4"></i> &nbsp;&nbsp;</a> -->
-          <a href="https://www.instagram.com/old.brompton/"><i class="fab fa-instagram fa-2x mt-4"></i> &nbsp;&nbsp;</a>
+      <a href="https://www.facebook.com/GunmakersPub/"><i class="fab fa-facebook-square fa-2x mt-4"></i> &nbsp;&nbsp;</a>
+          <a href="https://twitter.com/gunmakerspub"><i class="fab fa-twitter fa-2x mt-4"></i> &nbsp;&nbsp;</a>
+          <a href="https://www.instagram.com/gunmakerspub/"><i class="fab fa-instagram fa-2x mt-4"></i> &nbsp;&nbsp;</a>
           </li>
           
         </ul>

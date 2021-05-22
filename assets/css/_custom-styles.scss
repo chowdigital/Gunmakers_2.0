@@ -40,19 +40,18 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: $purple-base;
+    background-color: $white-base;
     //background: url('http://localhost:8888/BlackBook/wp-content/uploads/2020/08/copper.png') no-repeat 50% fixed / cover;
 }
 a {
     color:$white-base;
-    text-decoration: underline;
-    font-weight: 500;
+    text-decoration: none;
+
 
 }
 a:focus, a:hover {
-    color:$grey-base;
-    text-decoration: underline;
-    font-weight: 500;
+    color: $orange-base;
+
 }
 
 
@@ -62,15 +61,15 @@ a:focus, a:hover {
 // change Navbar color on scroll 
 
 .top-nav-collapse {
-    background: $purple-base!important;
+    background: $green-base!important;
 }
 
 .navbar {
-background: $purple-base;
+    background: $green-base;
 }
     @include media-breakpoint-up(md) {
         .navbar {
-            background: $purple-base;
+            background:  $green-base;
             }
       }
 
@@ -84,24 +83,49 @@ background: $purple-base;
 
 }
 
+
 .navbar.navbar-dark .breadcrumb .nav-item .nav-link:hover, .navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover {
-    color:$blue-base;
+    color: $orange-base;
 }
       
 
-.nav-item{
+.nav-item {
     margin: 1.5em 2em;
+    padding: 0.3em 0em;
+    line-height: 0.8em;
 }
+// change nav padding on scroll
+
 @include media-breakpoint-up(lg) {
     .nav-item{
         margin: 0em 2em;
+        padding: 1em 0em;
+    }
+    .box-nav{
+        padding:  1em 1.5em;
+    }
+    .top-nav-collapse .nav-item {
+        padding: 0.3em 0em;
+    }
+    .top-nav-collapse .box-nav{
+        padding: 0.3em 1.5em;
     }
   }
-//remove at bottom of footer
-.page{
-    margin: 0;
-    padding-top:0px;
-}
+
+
+  // highlight important nav buttons
+  .box-nav{
+      background: $white-base;
+      padding: 0.3em 1.5em;
+      a{
+        color: $green-base !important;
+        font-weight: 500;
+
+      }
+  }
+
+
+
 .navbar-toggler {
     background-color: transparent !important;
 }
@@ -114,9 +138,15 @@ background: $purple-base;
 // ===========================================================================
 
 
+//remove space at bottom of footer
+.page{
+    margin: 0;
+    padding-top:0px;
+}
+
 
 footer {
-    background-color: #242424;
+    background-color: $black-base;
     margin-top: 4rem;
     .container {
         padding-top:100px
@@ -160,20 +190,20 @@ footer {
     padding-top: 100px;
     padding-bottom: 100px;
     h4{
-        color: $white-base;
+        color: $orange-base;
         font-size:1em;
     }
     h4:before {
         content: "";
         display: inline-block;
-        border: 1px solid $white-base;
+        border: 1px solid $orange-base;
         width: 1em;
         margin: 0.3em 0.5em 0.3em 0em;
       }
     h3{
         font-size: 2em;
         margin: 0em 0.3em;
-        color: $blue-base;
+        color: $green-base;
     }
 }
 @include media-breakpoint-up(sm) {

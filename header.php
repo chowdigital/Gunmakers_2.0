@@ -16,15 +16,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-J6YQ1L8D7L"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-J6YQ1L8D7L');
-</script>
 
 	<?php wp_head(); ?>
 </head>
@@ -40,7 +32,7 @@
   <div class="container">
 	<!-- Brand and toggle get grouped for better mobile display -->
 	<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
- OLD BROMPTON
+Gunmakers
 
 		</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
