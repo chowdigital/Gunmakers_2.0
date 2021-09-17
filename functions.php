@@ -154,13 +154,15 @@ add_action( 'widgets_init', 'wordpress_bootstrap_starter_theme_widgets_init' );
 function wordpress_bootstrap_starter_theme_scripts() {
 	wp_enqueue_style( 'Font_Awesome', 'https://use.fontawesome.com/releases/v5.6.1/css/all.css' );
 	wp_enqueue_style( 'Typekit', 'https://use.typekit.net/fsh3cha.css' );
+	wp_enqueue_style( 'Up-IBE-style', 'https://ibe.uphotel.agency/ibe.min.css');
+
 	wp_enqueue_style( 'wordpress-bootstrap-starter-theme-style', get_template_directory_uri() . '/style.min.css', array(), $ver = 1.2 );
 	//wp_enqueue_script( 'wordpress-bootstrap-starter-theme-popper', get_template_directory_uri() . '/assets/js/popper.min.js', array('jquery'), false );	
 	//wp_enqueue_script( 'wordpress-bootstrap-starter-theme-vendor-scripts', get_template_directory_uri() . '/assets/js/vendor.min.js', array('jquery'), false );	
 	//wp_enqueue_script( 'wordpress-bootstrap-materiel', get_template_directory_uri() . '/assets/js/materiel.min.js', array('jquery'), false );	
 	//wp_enqueue_script( 'wordpress-bootstrap-starter-theme-custom-scripts', get_template_directory_uri() . '/assets/js/custom.min.js', array('customize-preview'), false );	
 
-
+	wp_enqueue_script( 'Up-IBE', 'https://ibe.uphotel.agency/ibe.min.js', array(), '1.0.0', true );
 	wp_enqueue_script( 'jQuery', get_template_directory_uri() . '/assets/js/jquery.min.js', array(), '3.3.1', true );
     wp_enqueue_script( 'Tether', get_template_directory_uri() . '/assets/js/popper.min.js', array(), '1.0.0', true );
     wp_enqueue_script( 'Bootstrap', get_template_directory_uri() . '/assets/js/vendor.min.js', array(), '1.0.0', true );
@@ -219,16 +221,25 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 add_action('wp_head','my_analytics', 20);
 function my_analytics() {
 	?>
-         <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-J6YQ1L8D7L"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-6PN6PQHPHN"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-J6YQ1L8D7L');
+  gtag('config', 'G-6PN6PQHPHN');
 </script>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-186564678-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-186564678-1');
+</script>
 	<?php
 }
 

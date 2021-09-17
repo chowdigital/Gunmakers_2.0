@@ -16,7 +16,8 @@ h1, h2, h3, h4, h5, h6, .btn{
   font-style: normal;
   letter-spacing: 0.1em;
 }
-h3{
+
+h1, h2, h3{
 
 
   font-family: playfair-display, serif;
@@ -26,6 +27,23 @@ h3{
   font-style: normal;
  
   
+}
+h1{
+  letter-spacing: 0em;
+  color: $green-base;
+}
+@include media-breakpoint-up(lg) {
+  h1{
+    font-size: 3.5em !important;
+  }
+}
+h2{
+  color: $green-base;
+}
+@include media-breakpoint-up(lg) {
+  h2{
+    font-size: 3em !important;
+  }
 }
 h4, .btn, labelgit {
   font-family: playfair-display, serif;

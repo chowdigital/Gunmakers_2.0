@@ -11,12 +11,7 @@
 
 ?>
 
-<div class="container">
-  <div class="text-box col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-    <h4>Welcome to Old Brompton</h4>
-    <h3>wine bar and deli in South Kensington. </h3>
-  </div>
-</div>
+<img src="" alt="">
 
 <!-- Footer -->
 <footer class="page-footer font-small dark-background">
@@ -44,7 +39,7 @@
     <!-- Begin Mailchimp Signup Form -->
 <div id="mc_embed_signup">
 
-<form action="https://oldbrompton.us1.list-manage.com/subscribe/post?u=966763b854f33413a4b5eab02&amp;id=0aa6dadf73" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<form action="https://gunmakershouse.us4.list-manage.com/subscribe/post?u=17197cd70fc0541b6e2473e93&amp;id=1b995e0382" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
       <div class="row">
             <div class="md-form mb-0">
@@ -125,13 +120,22 @@
       <div class="col-sm-6 col-lg-2 offset-lg-1">
 
         <!-- Links -->
-        <h2 class="h3-responsive font-weight-bold my-4">Opening Times</h2>
+        <h5 class="footer-title mt-5 mb-5">Opening Times</h5>
     <!--Section description-->
 
               <p class="no-line-break"><strong>Monday - Saturday </strong></p>
               <p >11am - 11pm</p>
               <p><strong>Sunday</strong></p>
               <p >11am - 10:30pm</p>
+
+              <h5 class="footer-title mt-5 mb-5">Kitchen Times</h5>
+    <!--Section description-->
+
+              <p class="no-line-break"><strong>Monday - Saturday </strong></p>
+              <p >12am - 3pm & 5pm - 10pm</p>
+              <p><strong>Sunday</strong></p>
+              <p >12am - 5pm</p>
+              
               
             
       </div>
@@ -141,7 +145,7 @@
       <div class="col-sm-6 col-lg-3">
 
         <!-- Links -->
-        <h2 class="h3-responsive font-weight-bold my-4">Gunmakers</h2>
+        <h5 class="footer-title mt-5 mb-5">Contact</h5>
     <!--Section description-->
    
   
@@ -169,9 +173,9 @@
           <a href="privacy-policy"><i class="fa fa-lock mt-4" aria-hidden="true"></i>&nbsp;&nbsp;Privacy Policy</a>
           </li>
           <li>  
-      <a href="https://www.facebook.com/GunmakersPub/"><i class="fab fa-facebook-square fa-2x mt-4"></i> &nbsp;&nbsp;</a>
-          <a href="https://twitter.com/gunmakerspub"><i class="fab fa-twitter fa-2x mt-4"></i> &nbsp;&nbsp;</a>
-          <a href="https://www.instagram.com/gunmakerspub/"><i class="fab fa-instagram fa-2x mt-4"></i> &nbsp;&nbsp;</a>
+      <a href="https://www.facebook.com/GunmakersHouse/"><i class="fab fa-facebook-square fa-2x mt-4"></i> &nbsp;&nbsp;</a>
+         <!-- <a href="https://twitter.com/gunmakerspub"><i class="fab fa-twitter fa-2x mt-4"></i> &nbsp;&nbsp;</a>-->
+          <a href="https://www.instagram.com/gunmakershouse/"><i class="fab fa-instagram fa-2x mt-4"></i> &nbsp;&nbsp;</a>
           </li>
           
         </ul>
@@ -186,11 +190,13 @@
   </div>
   <!-- Footer Links -->
 
-  <!-- Copyright -->
-  <div class="text-center py-3 black-background">A 
-    <a href="https://twitter.com/blackbooksoho"> Cloudsdale</a> Website
+    <!-- Cloudsdale -->
+    <div class="mt-5 text-center py-3 black-background"> 
+    <a href="https://cloudsdale.co.uk/">   <img src="https://cloudsdale.co.uk/wp-content/themes/Cloudsdale_2.0/assets/img/cloudsdale_logo.svg" alt="Cloudsdale" style="height:20px">
+</a>
   </div>
-  <!-- Copyright -->
+
+  <!-- Cloudsdale -->
 
 </footer>
 
@@ -200,3 +206,5 @@
 
 </body>
 </html>
+
+

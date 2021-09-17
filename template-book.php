@@ -1,4 +1,4 @@
-<?php /* Template Name: Book */ get_header(); ?>
+<?php /* Template Name: Book  */ get_header(); ?>
 <!-- Full Page Intro -->
 
 <div class="view full-page-intro z-depth-3">
